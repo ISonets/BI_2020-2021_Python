@@ -1,5 +1,5 @@
-#simple volume converter for buffer making
-#new_version
+# simple volume converter for buffer making
+# new_version
 print('Hello!')
 print('This program converts one volume unit into another.')
 print('It is useful for proper buffer making')
