@@ -8,4 +8,4 @@ print('This converter uses functions')
 print('The syntax is: function(your number,unit to convert from, unit to convert to)'
 def convert_func(val, unit_from, unit_to):
     SI = {'nl': 0.000000001, 'mkl': 0.000001, 'ml': 0.001, 'l': 1.0,}
-    return round((val*SI[unit_from]/SI[unit_to]), 5)
+    return round((val * SI[unit_from] / SI[unit_to]), 5)
