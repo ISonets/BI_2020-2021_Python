@@ -1,7 +1,8 @@
-a = int(input())
-op = input()
-b = int(input())
-if op =='/' and b == 0:
+#simple calculator, homework №1
+a = int(input()) #first number
+op = input() #operation
+b = int(input()) #second number
+if op == '/' and b == 0:
     print('На ноль делить нельзя!')
 elif op == '/' and b != 0:
     print(a / b)
