@@ -1,4 +1,4 @@
-  # simple calculator, homework №1
+# simple calculator, homework №1
 a = int(input())  # first number
 op = input()  # operation
 b = int(input())  # second number
