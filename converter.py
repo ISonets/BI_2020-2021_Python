@@ -1,5 +1,5 @@
 #simple volume converter for buffer making
-#new_version
+#added dictionary
 print('Hello!')
 print('This program converts one volume unit into another unit, which is useful for proper buffer making')
 print('Following are the available units: (nl), (mkl), (ml), (l)')
