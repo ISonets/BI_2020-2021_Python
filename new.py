@@ -47,7 +47,7 @@ R REAL,
 B_Allele_Freq REAL,
 Log_R_Ratio REAL
 FOREIGN KEY (sample_id) REFERENCES metadata (sample_id) ON DELETE CASCADE,
-FOREIGN KEY (SNP_Index) REFERENCES genstudio (SNP_Index) ON DELETE CASCADE));
+FOREIGN KEY (SNP_Index) REFERENCES genstudio (SNP_Index) ON DELETE CASCADE);
 ''')
 
 # open files
